@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Safi Ahmad - 5th Semester BSCS Student & Web Development Intern Portfolio & CV.">
+  <meta name="theme-color" content="#0b0f19">
+  <title>Safi Ahmad &mdash; Home &bull; Web Development Portfolio</title>
+
+  <!-- Typography: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Cyber Lighting & Background Canvas Grid -->
+  <div class="bg-ambient-glow" aria-hidden="true"></div>
+  <div class="bg-cyber-grid" aria-hidden="true"></div>
+
+  <!-- FIXED TOP NAVIGATION HEADER -->
+  <header class="site-header">
+    <div class="container header-container">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-link" title="Safi Ahmad Portfolio">
+        <span class="brand-mono">[SA]</span>
+        <span class="brand-name">Safi Ahmad</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button class="btn btn-ghost btn-resume-trigger" style="padding: 0.45rem 1rem; font-size: 0.72rem;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Get Resume
+        </button>
+
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" id="mobile-drawer">
+    <a href="index.html" class="mobile-nav-link active">Home</a>
+    <a href="about.html" class="mobile-nav-link">About Me</a>
+    <a href="experience.html" class="mobile-nav-link">Experience</a>
+    <a href="skills.html" class="mobile-nav-link">Skills</a>
+    <a href="contact.html" class="mobile-nav-link">Contact</a>
+  </div>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- HERO SECTION -->
+      <section class="hero-grid">
+
+        <!-- Left Column: Headline, Subtitle, Bio, CTAs -->
+        <div class="hero-content">
+          
+          <div class="status-beacon-badge">
+            <span class="radar-ping">
+              <span class="ping-outer"></span>
+              <span class="ping-core"></span>
+            </span>
+            <span class="beacon-text">Available for Opportunities &bull; 5th Semester BSCS</span>
+          </div>
+
+          <div>
+            <h1 class="hero-title">
+              Safi <span class="text-gradient-cyan">Ahmad</span>
+            </h1>
+            <p class="hero-subtitle">
+              BSCS 5th Semester Student &amp; Web Development Intern
+            </p>
+          </div>
+
+          <p class="hero-description">
+            Specializing in front-end architecture, responsive HTML5, modern CSS3, clean Vanilla JavaScript, and algorithmic problem solving with dedicated attention to performance.
+          </p>
+
+          <div class="hero-actions">
+            <a href="experience.html" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="4 17 10 11 4 5"></polyline>
+                <line x1="12" y1="19" x2="20" y2="19"></line>
+              </svg>
+              View Experience
+            </a>
+
+            <a href="skills.html" class="btn btn-ghost">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              Explore Skills
+            </a>
+
+            <a href="contact.html" class="btn btn-subtle">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Get in Touch
+            </a>
+          </div>
+
+          <div class="hero-metas">
+            <div class="meta-item">
+              <span class="meta-label">Location:</span>
+              <span class="meta-value">Pakistan</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Core Stack:</span>
+              <span class="meta-value">HTML5, CSS3, JavaScript, C++</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Developer Portrait Photo Card -->
+        <div class="terminal-col">
+          <div class="glass-panel profile-photo-card">
+            <img src="profile.jpg" alt="Safi Ahmad" class="profile-img" loading="eager">
+          </div>
+        </div>
+
+      </section>
+
+      <!-- HOME PAGE BENTO PREVIEW CARDS -->
+      <section class="home-preview-section">
+        
+        <div class="page-divider" style="margin-bottom: var(--space-xl);"></div>
+
+        <div class="preview-grid">
+          
+          <!-- Card 1: About Preview -->
+          <div class="glass-panel preview-card">
+            <div class="preview-card-header">
+              <h3 class="preview-card-title">About &amp; Education</h3>
+              <svg width="20" height="20" style="color: var(--primary);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">
+              5th-semester BS Computer Science student bridging foundational theory&mdash;data structures, computational complexity, and modular code&mdash;with high-speed web deployment.
+            </p>
+            <a href="about.html" class="preview-link">
+              <span>Read Full Profile</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Card 2: Experience Preview -->
+          <div class="glass-panel preview-card">
+            <div class="preview-card-header">
+              <h3 class="preview-card-title">Production Experience</h3>
+              <svg width="20" height="20" style="color: var(--secondary);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">
+              Web Development Intern at Coding Pixel, contributing to real-world client front-end layouts, modular CSS architectures, and performant Vanilla JavaScript interactions.
+            </p>
+            <a href="experience.html" class="preview-link">
+              <span>View Experience</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Card 3: Skills Preview -->
+          <div class="glass-panel preview-card">
+            <div class="preview-card-header">
+              <h3 class="preview-card-title">Technical Capabilities</h3>
+              <svg width="20" height="20" style="color: var(--tertiary);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">
+              Proficient in C++, Java, Python, SQL, and JavaScript ES6+, alongside modern CSS3 Grid/Flexbox layouts, DOM manipulation, and Git workflows.
+            </p>
+            <a href="skills.html" class="preview-link">
+              <span>View Skill Matrix</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </a>
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <!-- Bio & Identity -->
+        <div class="footer-brand-col">
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <span class="brand-mono">[SA]</span>
+            <span style="font-size: 1.15rem; font-weight: 700; color: var(--text-primary);">Safi Ahmad</span>
+          </div>
+
+          <p class="footer-bio">
+            BSCS Undergraduate &amp; Front-End Developer. Engineering responsive digital experiences, performant DOM architectures, and clean software solutions.
+          </p>
+        </div>
+
+        <!-- Navigation Directory -->
+        <div class="footer-nav-col">
+          <span class="footer-col-title">Navigation</span>
+          <div class="footer-links-list">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="about.html" class="footer-link">About</a>
+            <a href="experience.html" class="footer-link">Experience</a>
+            <a href="skills.html" class="footer-link">Skills</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+          </div>
+        </div>
+
+        <!-- Connect Directory -->
+        <div class="footer-nav-col">
+          <span class="footer-col-title">Connect</span>
+          <div class="footer-links-list">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+            <a href="mailto:safiahmad.dev@gmail.com" class="footer-link">safiahmad.dev@gmail.com</a>
+            <a href="contact.html" class="footer-link">Send a Message</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <div>&copy; 2026 Safi Ahmad. All rights reserved.</div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript Controller -->
+  <script src="script.js"></script>
+
+</body>
+</html>

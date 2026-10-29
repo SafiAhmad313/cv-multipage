@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Safi Ahmad - Front-End Developer & BSCS Student.">
+  <meta name="theme-color" content="#0b0f19">
+  <title>Contact &mdash; Safi Ahmad Portfolio</title>
+
+  <!-- Typography: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Cyber Lighting & Background Canvas Grid -->
+  <div class="bg-ambient-glow" aria-hidden="true"></div>
+  <div class="bg-cyber-grid" aria-hidden="true"></div>
+
+  <!-- FIXED TOP NAVIGATION HEADER -->
+  <header class="site-header">
+    <div class="container header-container">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-link" title="Safi Ahmad Portfolio">
+        <span class="brand-mono">[SA]</span>
+        <span class="brand-name">Safi Ahmad</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button class="btn btn-ghost btn-resume-trigger" style="padding: 0.45rem 1rem; font-size: 0.72rem;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Get Resume
+        </button>
+
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" id="mobile-drawer">
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="about.html" class="mobile-nav-link">About Me</a>
+    <a href="experience.html" class="mobile-nav-link">Experience</a>
+    <a href="skills.html" class="mobile-nav-link">Skills</a>
+    <a href="contact.html" class="mobile-nav-link active">Contact</a>
+  </div>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- PAGE INTRO HEADER -->
+      <div class="page-intro-header">
+        <span class="page-intro-badge">Initiate Collaboration</span>
+        <h1 class="page-title">Get In Touch</h1>
+        <p class="page-desc">
+          Currently open to Software Engineering internships, junior front-end developer roles, and technical discussions.
+        </p>
+        <div class="page-divider"></div>
+      </div>
+
+      <!-- CONTACT GRID -->
+      <div class="contact-grid">
+        
+        <!-- Left Column: Communication Beacons & Availability -->
+        <div class="contact-info-col">
+          
+          <div class="glass-panel contact-info-card">
+            
+            <div>
+              <h2 class="contact-intro-title">Let's Connect</h2>
+              <p class="contact-intro-desc">
+                Whether you have an upcoming project, an internship opportunity, or want to discuss modern front-end architectures, I'd love to hear from you.
+              </p>
+            </div>
+
+            <!-- Direct Email Card with One-Click Copy -->
+            <div class="email-direct-box">
+              <span class="email-label">Email Address</span>
+              <div class="email-action-row">
+                <a href="mailto:safiahmad.dev@gmail.com" class="email-link" id="email-address-text">
+                  safiahmad.dev@gmail.com
+                </a>
+                <button class="btn-copy" id="btn-copy-email" title="Copy email address to clipboard">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  <span id="copy-text">Copy</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Social Channels Grid -->
+            <div>
+              <span class="email-label" style="display: block; margin-bottom: 0.45rem;">Professional Networks</span>
+              <div class="social-grid">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn">
+                  <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn">
+                  <span>LinkedIn</span>
+                </a>
+                <a href="about.html" class="social-btn">
+                  <span>Profile</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Hiring Availability Status Card -->
+            <div class="availability-banner">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <div>
+                <div class="avail-title">Open for Opportunities</div>
+                <div class="avail-text">
+                  Available for front-end development and software engineering roles.
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Right Column: Interactive Quick Transmission Form -->
+        <div class="contact-form-col">
+          <div class="glass-panel contact-form-card">
+            
+            <div>
+              <h2 style="font-size: 1.45rem; font-weight: 700; color: var(--text-primary);">Send a Message</h2>
+              <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 3px;">Feel free to drop a message and I will get back to you promptly.</p>
+            </div>
+
+            <form class="contact-form" id="portfolio-contact-form">
+              
+              <div class="form-row">
+                <div class="form-field">
+                  <label class="form-label" for="user-name">Your Name *</label>
+                  <input type="text" id="user-name" class="form-input" placeholder="e.g. Alex Vance" required>
+                </div>
+
+                <div class="form-field">
+                  <label class="form-label" for="user-email">Your Email *</label>
+                  <input type="email" id="user-email" class="form-input" placeholder="e.g. alex@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label class="form-label" for="msg-subject">Subject</label>
+                <input type="text" id="msg-subject" class="form-input" placeholder="Project Inquiry / Job Opportunity">
+              </div>
+
+              <div class="form-field">
+                <label class="form-label" for="msg-body">Your Message *</label>
+                <textarea id="msg-body" class="form-textarea" placeholder="Describe your team, timeline, or opportunity..." required></textarea>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn btn-primary" id="btn-submit-message">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                  <span id="submit-button-text">Send Message</span>
+                </button>
+
+                <div class="form-feedback" id="form-success-toast">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Your message has been sent successfully.</span>
+                </div>
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <!-- Bio & Identity -->
+        <div class="footer-brand-col">
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <span class="brand-mono">[SA]</span>
+            <span style="font-size: 1.15rem; font-weight: 700; color: var(--text-primary);">Safi Ahmad</span>
+          </div>
+
+          <p class="footer-bio">
+            BSCS Undergraduate &amp; Front-End Developer. Engineering responsive digital experiences, performant DOM architectures, and clean software solutions.
+          </p>
+        </div>
+
+        <!-- Navigation Directory -->
+        <div class="footer-nav-col">
+          <span class="footer-col-title">Navigation</span>
+          <div class="footer-links-list">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="about.html" class="footer-link">About</a>
+            <a href="experience.html" class="footer-link">Experience</a>
+            <a href="skills.html" class="footer-link">Skills</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+          </div>
+        </div>
+
+        <!-- Connect Directory -->
+        <div class="footer-nav-col">
+          <span class="footer-col-title">Connect</span>
+          <div class="footer-links-list">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+            <a href="mailto:safiahmad.dev@gmail.com" class="footer-link">safiahmad.dev@gmail.com</a>
+            <a href="contact.html" class="footer-link">Send a Message</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <div>&copy; 2026 Safi Ahmad. All rights reserved.</div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript Controller -->
+  <script src="script.js"></script>
+
+</body>
+</html>

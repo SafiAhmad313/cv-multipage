@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Safi Ahmad - 5th Semester BSCS Student & Web Development Intern.">
+  <meta name="theme-color" content="#0b0f19">
+  <title>About Me &mdash; Safi Ahmad Portfolio</title>
+
+  <!-- Typography: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Cyber Lighting & Background Canvas Grid -->
+  <div class="bg-ambient-glow" aria-hidden="true"></div>
+  <div class="bg-cyber-grid" aria-hidden="true"></div>
+
+  <!-- FIXED TOP NAVIGATION HEADER -->
+  <header class="site-header">
+    <div class="container header-container">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-link" title="Safi Ahmad Portfolio">
+        <span class="brand-mono">[SA]</span>
+        <span class="brand-name">Safi Ahmad</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="experience.html" class="nav-link">Experience</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button class="btn btn-ghost btn-resume-trigger" style="padding: 0.45rem 1rem; font-size: 0.72rem;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Get Resume
+        </button>
+
+        <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" id="mobile-drawer">
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="about.html" class="mobile-nav-link active">About Me</a>
+    <a href="experience.html" class="mobile-nav-link">Experience</a>
+    <a href="skills.html" class="mobile-nav-link">Skills</a>
+    <a href="contact.html" class="mobile-nav-link">Contact</a>
+  </div>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- PAGE INTRO HEADER -->
+      <div class="page-intro-header">
+        <span class="page-intro-badge">Academic Foundation &amp; Aspirations</span>
+        <h1 class="page-title">About Me</h1>
+        <p class="page-desc">
+          Computer Science student with an algorithmic mindset, committed to building clean, performant, and accessible software.
+        </p>
+        <div class="page-divider"></div>
+      </div>
+
+      <!-- ABOUT GRID CONTENT -->
+      <div class="about-grid">
+        
+        <!-- Left Column: Narrative Card with Academic Focus -->
+        <div class="glass-panel about-card">
+          
+          <div class="about-text-block">
+            <h2 class="about-lead-title">
+              Synthesizing rigorous computer science principles with high-fidelity web execution.
+            </h2>
+
+            <p class="about-paragraph">
+              Currently progressing through my 5th semester of the Bachelor of Science in Computer Science (BSCS) program. I bridge foundational theory&mdash;data structures, algorithmic design patterns, computational complexity, and modular abstraction&mdash;with rapid, modern software deployment.
+            </p>
+
+            <p class="about-paragraph">
+              My engineering approach prioritizes lightweight execution: eliminating dependency bloat, crafting responsive grid layouts natively via CSS Flexbox and Grid, and harnessing pure Vanilla JavaScript to maintain sub-frame rendering and zero layout thrash.
+            </p>
+
+            <p class="about-paragraph">
+              Whether optimizing database queries, architecting accessible front-end interfaces, or debugging multi-threaded processes, I focus on write-once, maintain-always software principles that scale gracefully across platforms.
+            </p>
+          </div>
+
+          <!-- Bento Highlights Mini-Boxes -->
+          <div class="about-highlights">
+            <div class="highlight-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <div>
+                <h3 class="highlight-title">Data Structures &amp; Algorithmic Logic</h3>
+                <p class="highlight-desc">Optimized time complexity, memory efficiency, and clean algorithmic problem-solving.</p>
+              </div>
+            </div>
+
+            <div class="highlight-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+              <div>
+                <h3 class="highlight-title">Performance-First Front-End</h3>
+                <p class="highlight-desc">Pure DOM event delegation, minimal repaint cycles, and cross-browser resilience.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Bento Stat Cards Column -->
+        <div class="about-stats-col">
+          
+          <!-- Stat Card 1: Degree Progression -->
+          <div class="glass-panel bento-stat-card stat-cyan">
+            <div class="stat-info">
+              <span class="stat-tag">Degree Progression</span>
+              <span class="stat-value">5th Sem</span>
+              <span class="stat-subtext">BS Computer Science &bull; Solid Academic Standing</span>
+            </div>
+            <div class="stat-icon-wrapper">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Stat Card 2: Industry Experience -->
+          <div class="glass-panel bento-stat-card stat-blue">
+            <div class="stat-info">
+              <span class="stat-tag">Industry Experience</span>
+              <span class="stat-value" style="font-size: 1.55rem;">Coding Pixel</span>
+              <span class="stat-subtext">Web Development Intern &bull; Production Codebases</span>
+            </div>
+            <div class="stat-icon-wrapper">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Stat Card 3: Language Fluency -->
+          <div class="glass-panel bento-stat-card stat-purple">
+            <div class="stat-info">
+              <span class="stat-tag">Language Fluency</span>
+              <span class="stat-value">5+ Languages</span>
+              <span class="stat-subtext">C++, Java, Python, SQL, JavaScript</span>
+            </div>
+            <div class="stat-icon-wrapper">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Callout Card: Professional Focus -->
+          <div class="glass-panel" style="padding: var(--space-md) var(--space-lg); border-color: rgba(0, 242, 254, 0.25);">
+            <div style="font-size: 0.82rem; font-weight: 700; color: var(--primary); text-transform: uppercase; margin-bottom: 4px;">Career Vision</div>
+            <p style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5;">
+              Targeting full-stack and front-end engineering roles where clean code standards, modular design, and robust computational problem-solving drive real business impact.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <!-- Bio & Identity -->
+        <div class="footer-brand-col">
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <span class="brand-mono">[SA]</span>
+            <span style="font-size: 1.15rem; font-weight: 700; color: var(--text-primary);">Safi Ahmad</span>
+          </div>
+
+          <p class="footer-bio">
+            BSCS Undergraduate &amp; Front-End Developer. Engineering responsive digital experiences, performant DOM architectures, and clean software solutions.
+          </p>
+        </div>
+
+        <!-- Navigation Directory -->
+        <div class="footer-nav-col">
+          <span class="footer-col-title">Navigation</span>
+          <div class="footer-links-list">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="about.html" class="footer-link">About</a>
+            <a href="experience.html" class="footer-link">Experience</a>
+            <a href="skills.html" class="footer-link">Skills</a>
+            <a href="contact.html" class="footer-link">Contact</a>
+          </div>
+        </div>
+
+        <!-- Connect Directory -->
+        <div class="footer-nav-col">
+          <span class="footer-col-title">Connect</span>
+          <div class="footer-links-list">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+            <a href="mailto:safiahmad.dev@gmail.com" class="footer-link">safiahmad.dev@gmail.com</a>
+            <a href="contact.html" class="footer-link">Send a Message</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <div>&copy; 2026 Safi Ahmad. All rights reserved.</div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript Controller -->
+  <script src="script.js"></script>
+
+</body>
+</html>
